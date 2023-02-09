@@ -1,0 +1,29 @@
+.cabecalho {
+    background: var(--cor-de-fundo);
+    margin-top: 2em;
+    padding: 2.5em 1em 0 1em;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.cabecalho__descricao {
+    margin-left: 1em;
+}
+
+.cabecalho__titulo {
+    font-weight: 700;
+    font-size: 22px;
+    color: var(--cinza);
+}
+
+.cabecalho__texto {
+    color: var(--cinza-claro);
+    margin-top: 1em;
+}
+
+.cabecalho__foto-perfil {
+    width: 57px;
+    height: 57px;
+    border-radius: 50%;
+}
