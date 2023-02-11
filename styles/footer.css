@@ -1,0 +1,45 @@
+.rodape {
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 12px;
+    position: fixed;
+    bottom: 0%;
+    right: 0%;
+    background: var(--branco);
+    width: 100%;
+    padding: 0.5em;
+}
+
+.rodape__link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+}
+
+.rodape__icone {
+    width: 20px;
+    height: 22px;
+}
+
+.rodape__titulo {
+    font-size: 12px;
+    color: var(--cinza);
+}
+
+.consultas {
+    color: var(--azul);
+}
+
+.cadastro__botao {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background: var(--azul);
+    position: absolute;
+    bottom: 70px;
+    left: 84%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

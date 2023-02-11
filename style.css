@@ -1,5 +1,7 @@
 @import url("styles/header.css");
 @import url("styles/agenda.css");
+@import url("styles/footer.css");
+@import url("styles/cadastro.css");
 
 :root {
     --branco: #FFFFFF;
