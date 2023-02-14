@@ -23,7 +23,25 @@
 }
 
 .cabecalho__foto-perfil {
-    width: 57px;
-    height: 57px;
+    width: 4em;
+    height: 4em;
     border-radius: 50%;
+}
+
+@media screen and (min-width: 810px) {
+    .cabecalho__titulo {
+        font-size: 36px;
+    }
+    
+    .cabecalho__foto-perfil {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .cabecalho__foto-perfil {
+        width: 150px;
+        height: 150px;
+    }
 }

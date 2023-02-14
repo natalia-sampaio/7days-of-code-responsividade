@@ -1,13 +1,13 @@
 .rodape {
     display: flex;
     justify-content: space-evenly;
-    border-radius: 12px;
+    border-radius: 1em 1em 0 0;
     position: fixed;
     bottom: 0%;
     right: 0%;
     background: var(--branco);
     width: 100%;
-    padding: 0.5em;
+    padding: 0.5em 0;
 }
 
 .rodape__link {
@@ -15,11 +15,12 @@
     flex-direction: column;
     align-items: center;
     text-decoration: none;
+    flex-wrap: wrap;
 }
 
 .rodape__icone {
-    width: 20px;
-    height: 22px;
+    width: 1.5em;
+    height: 1.5em;
 }
 
 .rodape__titulo {
@@ -32,14 +33,31 @@
 }
 
 .cadastro__botao {
-    width: 56px;
-    height: 56px;
+    width: 5em;
+    height: 5em;
     border-radius: 50%;
     background: var(--azul);
     position: absolute;
-    bottom: 70px;
-    left: 84%;
+    bottom: 150%;
+    left: 81%;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+@media screen and (min-width: 810px) {
+    .rodape__icone {
+        width: 40px;
+        height: 44px;
+    }
+
+    .rodape__titulo {
+        font-size: 18px;
+    }
+
+    .cadastro__botao {
+        width: 70px;
+        height: 70px;
+        left: 89%;
+    }
 }

@@ -18,4 +18,11 @@ body {
     font-family: var(--fonte);
     font-size: 14px;
     font-weight: 400;
+    width: 100vw;
+}
+
+@media screen and (min-width: 810px) {
+    body {
+        font-size: 22px;
+    }
 }

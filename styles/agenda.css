@@ -1,5 +1,7 @@
 .agenda {
     background: var(--cor-de-fundo);
+    margin-bottom: 2.5em;
+    padding-bottom: 1em;
 }
 
 .agenda__titulo {
@@ -8,41 +10,34 @@
     color: var(--cinza);
     margin: 0 0 1em 1em;
     padding-top: 1.5em;
+    width: 100%;
 }
 
 .card {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     background: var(--branco);
     border-radius: 0.5em;
     margin: 1em;
 }
 
-.card__header, 
-.card__body {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-}
-
 .card__header {
+    display: grid;
+    grid-template-areas: 
+    "imagem descricao icone-chat";
+    grid-template-columns: auto 1fr auto;
+    width: 100%;
     padding: 1em;
     border-bottom: 1px solid var(--cor-de-fundo);
 }
 
-.card__body {
-    padding: 1em;
-}
-
 .card__foto-de-perfil {
-    width: 32px;
-    height: 32px;
+    width: 2em;
+    height: 2em;
     border-radius: 50%;
     margin-right: 1.1em;
-}
-
-.card__descricao {
-    margin-right: 6.5em;
+    grid-area: imagem;
 }
 
 .card__titulo {
@@ -51,16 +46,20 @@
     margin-bottom: 0.5em;
 }
 
+.card__descricao {
+    grid-area: descricao;
+}
+
 .card__texto {
     font-size: 12px;
     color: var(--cinza-claro);
-    padding-left: 2em;
-    height: 19px;
+    padding-left: 1.8em;
+    height: 100%;
 }
 
 .remoto {
     background: url("../img/Camera.svg") no-repeat;
-    
+
 }
 
 .presencial {
@@ -68,13 +67,21 @@
 }
 
 .card__icone-chat {
-    align-self: end;
+    grid-area: icone-chat;
+}
+
+.card__body {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 1em;
 }
 
 .card__body h3 {
     font-size: 12px;
     color: var(--cinza);
     font-weight: 500;
+    width: 100%;
 }
 
 .card__botoes {
@@ -85,10 +92,12 @@
 }
 
 .card__botao {
-    padding: 1.2em;
+    padding: 1.2em 0;
     border-radius: 8px;
     text-decoration: none;
+    text-align: center;
     font-weight: 500;
+    width: 48%;
 }
 
 .video {
@@ -106,4 +115,32 @@
     color: var(--branco);
     width: 100%;
     text-align: center;
+}
+
+@media screen and (min-width: 810px) {
+    .agenda__titulo {
+        font-size: 22px;
+    }
+
+    .card__texto,
+    .card__body h3 {
+        font-size: 18px;
+    }
+
+    .card__foto-de-perfil,
+    .card__icone-chat img {
+        width: 64px;
+        height: 64px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .agenda {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        max-width: 30%;
+    }
 }
