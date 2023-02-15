@@ -92,7 +92,7 @@
 }
 
 .card__botao {
-    padding: 1.2em 0;
+    padding: 1.2em 0em;
     border-radius: 8px;
     text-decoration: none;
     text-align: center;
@@ -118,12 +118,22 @@
 }
 
 @media screen and (min-width: 810px) {
+    .agenda {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
     .agenda__titulo {
         font-size: 22px;
     }
 
+    .card {
+        max-width: 43%;
+    }
+
     .card__texto,
-    .card__body h3 {
+    .card__body h3,
+    .card__botao {
         font-size: 18px;
     }
 
@@ -135,10 +145,7 @@
 }
 
 @media screen and (min-width: 1920px) {
-    .agenda {
-        display: flex;
-        flex-wrap: wrap;
-    }
+    
 
     .card {
         max-width: 30%;
