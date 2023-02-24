@@ -28,7 +28,7 @@
     border-radius: 50%;
 }
 
-@media screen and (min-width: 810px) {
+@media screen and (min-width: 768px) {
     .cabecalho__titulo {
         font-size: 36px;
     }
@@ -39,7 +39,11 @@
     }
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1024px) {
+    .cabecalho {
+        margin-left: 20%;
+    }
+    
     .cabecalho__foto-perfil {
         width: 150px;
         height: 150px;

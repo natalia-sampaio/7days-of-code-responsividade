@@ -117,7 +117,7 @@
     text-align: center;
 }
 
-@media screen and (min-width: 810px) {
+@media screen and (min-width: 768px) {
     .agenda {
         display: flex;
         flex-wrap: wrap;
@@ -144,10 +144,11 @@
     }
 }
 
-@media screen and (min-width: 1920px) {
-    
-
+@media screen and (min-width: 1024px) {
+    .agenda {
+        margin-left: 20%;
+    }
     .card {
-        max-width: 30%;
+        max-width: 40%;
     }
 }
