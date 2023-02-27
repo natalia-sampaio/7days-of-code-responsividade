@@ -5,7 +5,7 @@
 
 <div align="center">
 
-![STATUS](https://img.shields.io/badge/status-day%203/7-blue?style=for-the-badge)&nbsp;
+![STATUS](https://img.shields.io/badge/status-deployed-6bffb0?style=for-the-badge)&nbsp;
 ![HTML 5](https://img.shields.io/badge/-HTML-0D1117?style=for-the-badge&logo=html5&logoColor=f45430&labelColor=0D1117)&nbsp;
 ![CSS](https://img.shields.io/badge/-CSS-0D1117?style=for-the-badge&logo=CSS3&logoColor=1572B6&labelColor=0D1117)&nbsp;
 
@@ -25,5 +25,15 @@
 - day 5: I changed the CSS in order to transform the items that were in the footer of the Mobile version into a 'side menu' format whenever the site is accessed on devices with larger screens.
 - day 6: Continuing adaptations for larger screens, on this day I changed the 'floating button' paradigm to something more appropriate for tablet and desktop screens, such as a form.
 - day 7: On the final day of the challenge, I made my application publicly available on the internet via GitHub Pages and Vercel.
+
+<hr/>
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=1000&pause=1000&color=0D1117&background=95B6F8&center=true&vCenter=true&repeat=false&width=1000&lines=Check+the+deployed+page+here%3A)](https://git.io/typing-svg)
+
+<div align="center">
+<a href="https://natalia-sampaio.github.io/7days-of-code-responsividade/" ><img src="https://img.shields.io/badge/-GitHub%20Pages-0D1117?style=for-the-badge&logo=github&labelColor=0D1117&textColor=0D1117" /></a>
+
+<a href="https://7days-of-code-responsividade-taupe.vercel.app/"><img src="https://img.shields.io/badge/-Vercel-0D1117?style=for-the-badge&logo=vercel&labelColor=0D1117&textColor=0D1117"/></a>
+</div>
 
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=95b6f8&height=100&section=footer"/>
