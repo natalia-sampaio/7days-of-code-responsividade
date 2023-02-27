@@ -1,13 +1,15 @@
 @import url("styles/header.css");
 @import url("styles/agenda.css");
 @import url("styles/footer.css");
-@import url("styles/cadastro.css");
+@import url("styles/formulario.css");
 
 :root {
     --branco: #FFFFFF;
     --cor-de-fundo: #E5E5E5;
-    --cinza: #464646;
+    --cinza-escuro: #464646;
+    --cinza: #898989;
     --cinza-claro: #A3A3A3;
+    --cinza-claro2: #CFCFCF;
     --laranja: #FFB050;
     --azul: #4894FF;
     --fonte: "Montserrat";

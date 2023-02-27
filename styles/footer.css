@@ -25,7 +25,7 @@
 
 .rodape__titulo {
     font-size: 12px;
-    color: var(--cinza);
+    color: var(--cinza-escuro);
 }
 
 .consultas {
@@ -38,7 +38,7 @@
     border-radius: 50%;
     background: var(--azul);
     position: absolute;
-    bottom: 80px;
+    bottom: 150%;
     left: 75%;
     display: flex;
     align-items: center;
@@ -65,18 +65,19 @@
 @media screen and (min-width: 1024px) {
     .rodape {
         display: block;
-        right: 80%;
+        right: 75%;
         height: 100%;
-        width: 20%;
+        width: 25%;
         border-right: 3px solid var(--cinza-claro);
         border-radius: 0;
+        overflow-y: auto;
     }
 
     .rodape__link {
         flex-direction: row;
     }
 
-    .rodape__link:hover {
+    .rodape__titulo:hover {
         background: var(--azul);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -86,9 +87,11 @@
 
     .rodape__icone {
         margin: 1em;
+        display: flex;
+        align-items: center;
     }
 
-    .consultas {
-        font-weight: 700;
+    .cadastro__botao {
+        display: none;
     }
 }

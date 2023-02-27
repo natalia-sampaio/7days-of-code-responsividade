@@ -1,0 +1,102 @@
+.container__formulario,
+.formulario,
+.container__botao  {
+    display: none;
+}
+
+.cadastro__formulario-icone {
+    width: 40px;
+    height: 44px;
+    background-image: url("../img/Calendarioicone.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/* 
+.container__botao:checked~.container__label>.cadastro__formulario-icone {
+    background-image: url("../img/Calendarioicone.svg");
+} */
+
+.container__botao~.rodape__titulo {
+    background: var(--azul);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 700;
+}
+
+.container__botao:checked~.formulario {
+    display: block;
+}
+
+.formulario {
+    margin: 0.5em 1.2em;
+    width: 70%;
+    color: var(--cinza);
+}
+
+.formulario__campo {
+    margin-bottom: 2em;
+}
+
+.campo__etiqueta {
+    font-size: 16px;
+}
+
+.campo__escrita {
+    display: block;
+    font-family: var(--fonte);
+    color: var(--cinza);
+    background: var(--branco);
+    border: 2px solid var(--cinza-claro2);
+    border-radius: 20px;
+    width: 100%;
+    padding: 1em;
+    margin-top: .5em;
+}
+
+.campo__escrita::placeholder {
+    font-family: var(--fonte);
+    color: var(--cinza-escuro);
+}
+
+.campo__escrita--menor {
+    width: 60%;
+}
+
+.termos__texto {
+    display: inline;
+    font-size: 14px;
+    color: var(--cinza-escuro);
+}
+
+.formulario__botao {
+    background: var(--cinza-claro2);
+    margin: 2em auto;
+    display: block;
+    border: none;
+    padding: 1em 4em;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: var(--branco);
+}
+
+.mensagem-erro {
+    color: red;
+}
+
+.campo__escrita--erro {
+    border: 2px solid red;
+}
+
+@media screen and (min-width: 1024px) {
+    .container__formulario {
+        display: flex;
+    }
+
+    .consultas {
+        display: none;
+    }
+}

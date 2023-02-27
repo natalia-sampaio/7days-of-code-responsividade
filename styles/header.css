@@ -14,7 +14,7 @@
 .cabecalho__titulo {
     font-weight: 700;
     font-size: 22px;
-    color: var(--cinza);
+    color: var(--cinza-escuro);
 }
 
 .cabecalho__texto {
@@ -41,7 +41,7 @@
 
 @media screen and (min-width: 1024px) {
     .cabecalho {
-        margin-left: 20%;
+        margin-left: 25%;
     }
     
     .cabecalho__foto-perfil {

@@ -7,7 +7,7 @@
 .agenda__titulo {
     font-size: 16px;
     font-weight: 700;
-    color: var(--cinza);
+    color: var(--cinza-escuro);
     margin: 0 0 1em 1em;
     padding-top: 1.5em;
     width: 100%;
@@ -42,7 +42,7 @@
 
 .card__titulo {
     font-weight: 700;
-    color: var(--cinza);
+    color: var(--cinza-escuro);
     margin-bottom: 0.5em;
 }
 
@@ -79,7 +79,7 @@
 
 .card__body h3 {
     font-size: 12px;
-    color: var(--cinza);
+    color: var(--cinza-escuro);
     font-weight: 500;
     width: 100%;
 }
@@ -107,7 +107,7 @@
 
 .audio {
     border: 1px solid var(--cor-de-fundo);
-    color: var(--cinza);
+    color: var(--cinza-escuro);
 }
 
 .local {
@@ -146,7 +146,7 @@
 
 @media screen and (min-width: 1024px) {
     .agenda {
-        margin-left: 20%;
+        margin-left: 25%;
     }
     .card {
         max-width: 40%;
